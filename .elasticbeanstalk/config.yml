@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: dev-env
+global:
+  application_name: HBServer
+  default_ec2_keyname: AsusKon
+  default_platform: Ruby 1.9.3
+  default_region: us-west-2
+  profile: eb-cli
+  sc: git
