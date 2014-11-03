@@ -33,5 +33,17 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
-# gem 'debugger'
+group :development, :test do
+  gem 'awesome_print'
+  gem 'bullet'
+  gem 'debugger'
+  gem 'pry-debugger'
+  gem 'pry-rescue'
+  gem 'pry-stack_explorer'
+end
+
+group :development do
+  gem 'binding_of_caller'
+  gem 'meta_request'
+  gem 'rails-footnotes'
+end
